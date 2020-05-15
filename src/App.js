@@ -3,6 +3,7 @@ import List from "./List";
 import "./App.css";
 
 function App(props) {
+  console.log(props);
   return (
     <main className="App">
       <header className="App-header">
