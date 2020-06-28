@@ -8,7 +8,7 @@ exports[`List component renders the UI as expected 1`] = `
     className="List-header"
   >
     <h2>
-      Second list
+      First list
     </h2>
   </header>
   <div
@@ -22,8 +22,12 @@ exports[`List component renders the UI as expected 1`] = `
       >
         delete
       </button>
-      <h3 />
-      <p />
+      <h3>
+        First card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
     </div>
     <div
       className="Card"
@@ -33,8 +37,12 @@ exports[`List component renders the UI as expected 1`] = `
       >
         delete
       </button>
-      <h3 />
-      <p />
+      <h3>
+        Second card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
     </div>
     <div
       className="Card"
@@ -44,8 +52,12 @@ exports[`List component renders the UI as expected 1`] = `
       >
         delete
       </button>
-      <h3 />
-      <p />
+      <h3>
+        Fifth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
     </div>
     <div
       className="Card"
@@ -55,8 +67,12 @@ exports[`List component renders the UI as expected 1`] = `
       >
         delete
       </button>
-      <h3 />
-      <p />
+      <h3>
+        Sixth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
     </div>
     <div
       className="Card"
@@ -66,8 +82,12 @@ exports[`List component renders the UI as expected 1`] = `
       >
         delete
       </button>
-      <h3 />
-      <p />
+      <h3>
+        Seventh card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
     </div>
     <div
       className="Card"
@@ -77,8 +97,12 @@ exports[`List component renders the UI as expected 1`] = `
       >
         delete
       </button>
-      <h3 />
-      <p />
+      <h3>
+        Tenth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
     </div>
     <div
       className="Card"
@@ -88,9 +112,34 @@ exports[`List component renders the UI as expected 1`] = `
       >
         delete
       </button>
-      <h3 />
-      <p />
+      <h3>
+        Twelfth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
     </div>
+    <div
+      className="Card"
+    >
+      <button
+        type="button"
+      >
+        delete
+      </button>
+      <h3>
+        Thirteenth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+    <button
+      className="List-add-button"
+      type="button"
+    >
+      + Add Random Card
+    </button>
   </div>
 </section>
 `;
